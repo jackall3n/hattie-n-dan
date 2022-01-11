@@ -11,8 +11,7 @@ export default function Home() {
       },
     },
     {
-      image:
-        "/beach.png",
+      image: "/beach.png",
       title: "Wedding Day Swim",
       subtitle:
         "10/10/22 - Saturday @ 11am. Dress code: Warm jumpers & swim suits",
@@ -78,7 +77,7 @@ export default function Home() {
         <div className="whitespace-pre-wrap font-lato"></div>
       </div>
 
-      <div className="py-10 grid gap-10 lg:gap-10 font-montserrat">
+      <div className="py-10 grid gap-10 lg:gap-10 font-cormorant">
         {accommodation.map((accommodation, index) => (
           <div
             key={index}
@@ -94,13 +93,13 @@ export default function Home() {
                 {accommodation.subtitle}
               </h4>
 
-              <div className="font-lato">
-                <p className="py-5 md:py-3 whitespace-pre-wrap">
+              <div>
+                <p className="py-5 md:py-3 text-lg whitespace-pre-wrap">
                   {accommodation.description}
                 </p>
 
                 <div
-                  className="grid gap-2 text-sm items-center justify-center"
+                  className="grid gap-2 items-center justify-center"
                   style={{ gridTemplateColumns: "auto 1fr" }}
                 >
                   <svg
@@ -129,43 +128,6 @@ export default function Home() {
             </div>
           </div>
         ))}
-
-        <div className="pt-10 text-center">
-          <h1 className="font-cormorant text-4xl mb-5">Taxis</h1>
-
-          <div className="flex flex-col justify-center items-center">
-            <img src={"/separator.png"} />
-          </div>
-        </div>
-        <div>
-          <div className="flex items-center justify-center">
-            <div className="grid grid-cols-2 gap-10 sm:grid-cols-3">
-              {taxis.map((taxi) => (
-                <div key={taxi.name}>
-                  <div className="font-cormorant text-2xl mb-2">
-                    {taxi.name}
-                  </div>
-                  <div
-                    className="grid gap-2 text-sm"
-                    style={{ gridTemplateColumns: "auto 1fr" }}
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path d="M17.924 2.617a.997.997 0 00-.215-.322l-.004-.004A.997.997 0 0017 2h-4a1 1 0 100 2h1.586l-3.293 3.293a1 1 0 001.414 1.414L16 5.414V7a1 1 0 102 0V3a.997.997 0 00-.076-.383z" />
-                      <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-                    </svg>
-
-                    <a href={`tel:${taxi.phone}`}>{taxi.phone}</a>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
       </div>
     </>
   );

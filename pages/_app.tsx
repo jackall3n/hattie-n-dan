@@ -64,7 +64,7 @@ function Header() {
 
 function NavItem({ title, link }) {
   return (
-    <div className="uppercase font-medium text-sm tracking-wider text-black text-opacity-75">
+    <div className="uppercase font-medium text-lg tracking-wider text-black text-opacity-75">
       <Link href={link}>
         <a>{title}</a>
       </Link>
