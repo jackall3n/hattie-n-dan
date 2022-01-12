@@ -72,7 +72,7 @@ export default function Accomodation() {
         </div>
       </div>
 
-      <div className="py-10 grid gap-10 lg:gap-10 font-montserrat">
+      <div className="py-10 grid gap-10 lg:gap-10 font-cormorant">
         {accommodation.map((accommodation, index) => (
           <div
             key={index}
@@ -88,13 +88,13 @@ export default function Accomodation() {
                 {accommodation.subtitle}
               </h4>
 
-              <div className="font-lato">
-                <p className="py-5 md:py-3 whitespace-pre-wrap">
+              <div>
+                <p className="py-5 md:py-3 whitespace-pre-wrap text-lg">
                   {accommodation.description}
                 </p>
 
                 <div
-                  className="grid gap-2 text-sm items-center justify-center"
+                  className="grid gap-2 text-base items-center justify-center"
                   style={{ gridTemplateColumns: "auto 1fr" }}
                 >
                   <svg

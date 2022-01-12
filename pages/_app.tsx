@@ -10,7 +10,8 @@ import "../styles/global.css";
 opacity(new Date(2023, 0, 1), { days: 2 }, true);
 
 function Header() {
-  useEffect(() => {}, []);
+  useEffect(() => {
+  }, []);
 
   return (
     <div
@@ -51,7 +52,8 @@ function Header() {
         <div className="text-right -mt-5">10. 09. 2022.</div>
       </div>
 
-      <nav className="pt-10 grid text-center grid-flow-row md:grid-flow-col gap-5 justify-center items-center font-montserrat">
+      <nav
+        className="pt-10 grid text-center grid-flow-row md:grid-flow-col gap-5 justify-center items-center font-montserrat">
         <NavItem title="The weekend" link="/" />
         <Spacer />
         <NavItem title="Accommodation" link="/accommodation" />
@@ -78,7 +80,7 @@ function Spacer() {
   );
 }
 
-function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }) {
   return (
     <>
       <Head>
@@ -103,4 +105,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default App;

@@ -44,23 +44,6 @@ export default function Home() {
     },
   ];
 
-  const taxis = [
-    {
-      name: "Frank's Cabs",
-      phone: "07974 391522",
-      // link: "https://stdavids-taxi.co.uk"
-    },
-    {
-      name: "Morgan's Taxis",
-      phone: "07788 292976",
-      // link: "https://stdavidstaxis.wales"
-    },
-    {
-      name: "Tony's Taxis",
-      phone: "01437 720931",
-    },
-  ];
-
   return (
     <>
       <div className="pb-10 text-center justify-center">
@@ -74,28 +57,27 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center mb-5">
           <img src={"/separator.png"} />
         </div>
-        <div className="whitespace-pre-wrap font-lato"></div>
       </div>
 
       <div className="py-10 grid gap-10 lg:gap-10 font-cormorant">
-        {accommodation.map((accommodation, index) => (
+        {accommodation.map(({ image, subtitle, description, title, contact }, index) => (
           <div
             key={index}
             className="grid gap-0 md:gap-10 grid-cols-1 md:grid-cols-2 shadow-md rounded-md md:rounded-none overflow-hidden md:shadow-none"
           >
             <div className="flex items-start justify-end">
-              <img src={accommodation.image} alt="coastal" className="w-full" />
+              <img src={image} alt="coastal" className="w-full" />
             </div>
 
             <div className="text-left md:p-0 p-5">
-              <h3 className="font-cormorant text-3xl">{accommodation.title}</h3>
+              <h3 className="font-cormorant text-3xl">{title}</h3>
               <h4 className="font-cormorant text-base">
-                {accommodation.subtitle}
+                {subtitle}
               </h4>
 
               <div>
                 <p className="py-5 md:py-3 text-lg whitespace-pre-wrap">
-                  {accommodation.description}
+                  {description}
                 </p>
 
                 <div
@@ -116,12 +98,10 @@ export default function Home() {
                   </svg>
 
                   <a
-                    href={`http://maps.google.com/?q=${encodeURIComponent(
-                      accommodation.contact.address
-                    )}`}
+                    href={`https://maps.google.com/?q=${encodeURIComponent(contact.address)}`}
                     target="_blank"
                   >
-                    {accommodation.contact.address}
+                    {contact.address}
                   </a>
                 </div>
               </div>
