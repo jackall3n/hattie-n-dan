@@ -2,7 +2,7 @@ export default function Accomodation() {
   const accommodation = [
     {
       image: "/tipi.png",
-      title: "Camping, Coastal Stay",
+      title: "Camping at Coastal Stay",
       subtitle: "(complimentary)",
       description:
         "The campsite is reserved for wedding guests and is complimentary. There is also a bell tent with a double bed up for grabs for whoever is quickest.  ",
@@ -196,9 +196,10 @@ export default function Accomodation() {
           <h1 className="font-cormorant text-4xl mb-5">Taxis</h1>
 
           <h2 className="font-cormorant text-xl mb-8">
-          Druidstone is a 30 minute drive from Coastal Stay campsite. We advise booking taxis (numbers
-below) for the Friday and/or Saturday closer to the time.
-        </h2>
+            Druidstone is a 30 minute drive from Coastal Stay campsite. We
+            advise booking taxis (numbers below) for the Friday and/or Saturday
+            closer to the time.
+          </h2>
 
           <div className="flex flex-col justify-center items-center">
             <img src={"/separator.png"} />

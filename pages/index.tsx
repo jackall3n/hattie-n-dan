@@ -2,7 +2,7 @@ export default function Home() {
   const accommodation = [
     {
       image: "/pizza.png",
-      title: "Pizza & Champagne Night: (All Guests)",
+      title: "Pizza & Champagne Night (All Guests)",
       subtitle: "09/09/22 - Friday @ 7pm. Dress code: Smart casual",
       description:
         "We will be kicking off celebrations with a wood-fired pizza and champagne night with all wedding guests at Dan’s mum’s campsite (plus Katie Marshall brownies to finish off).",
@@ -12,7 +12,7 @@ export default function Home() {
     },
     {
       image: "/beach.png",
-      title: "Wedding Day Swim: (All Guests)",
+      title: "Wedding Day Swim (All Guests)",
       subtitle:
         "10/09/22 - Saturday @ 11am. Dress code: Warm jumpers & swim suits",
       description:
@@ -34,7 +34,7 @@ export default function Home() {
     {
       image: "/evening.png",
 
-      title: "Wedding: (Evening Guests)",
+      title: "Wedding (Evening Guests)",
       subtitle: "10/09/22 - Saturday @ 7:00pm. Dress code: Cocktail attire",
       description:
         "Please join us at Druidstone from 7pm for drinks, dancing and live music provided by Jo and Dan Messore, plus a special Deckstepper’s reunion. A light evening buffet will be provided.",
