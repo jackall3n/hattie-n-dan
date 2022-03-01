@@ -19,7 +19,7 @@ export default function RSVP() {
           </span>
           <a
             className="underline"
-            href="mailto:dattiewedding@gmail.com?subject=RSVP: Dan and Hattie wedding&body=Name:%0D%0AI+can+attend+the+Friday+evening:%0D%0AI+can+attend+the+Saturday+swim (please specify if you need a wetsuit):%0D%0AI+can+attend+the+wedding:%0D%0ADietary requirements:"
+            href="mailto:dattiewedding@gmail.com?bcc=harrietsime@gmail.com&subject=RSVP%3A%20Dan%20and%20Hattie%20wedding&body=Name%3A%0AI%20can%20attend%20the%20Friday%20evening%3A%0AI%20can%20attend%20the%20Saturday%20swim%20(please%20specify%20if%20you%20need%20a%20wetsuit)%3A%0AI%20can%20attend%20the%20wedding%3A%0ADietary%20requirements%3A"
           >
             dattiewedding@gmail.com
           </a>
