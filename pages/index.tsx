@@ -111,6 +111,16 @@ export default function Home() {
           )
         )}
       </div>
+      <div className="pt-10 text-center justify-center">
+        <div className="flex flex-col justify-center items-center mb-10">
+          <img src={"/separator.png"} />
+        </div>
+        <h2 className="font-cormorant text-xl mb-10">
+          Children are very welcome on the Friday evening and at the Saturday
+          swim but we are unfortunately unable to accommodate them for the
+          wedding day or evening.
+        </h2>
+      </div>
     </>
   );
 }
