@@ -37,7 +37,7 @@ export default function Home() {
       title: "Wedding (Evening Guests)",
       subtitle: "10/09/22 - Saturday @ 7:00pm. Dress code: Cocktail attire",
       description:
-        "Please join us at Druidstone from 7pm for drinks, dancing and live music provided by Jo and Dan Messore, plus a special Deckstepper’s reunion. A light evening buffet will be provided.",
+        "Please join us at Druidstone from 7pm for drinks, dancing and live music provided by Jo and Dan Messore, plus a special Decksteppers reunion. A light evening buffet will be provided.",
       contact: {
         address: "The Druidstone, Haverfordwest, SA62 3NE",
       },

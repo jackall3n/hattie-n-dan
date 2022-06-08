@@ -14,7 +14,7 @@ export default function RSVP() {
 
         <h2 className="font-cormorant text-xl mb-2">
           <span>
-            Please let us know by Sunday March 27th if you can make our wedding
+            Please let us know as soon as possible if you can make our wedding
             weekend by emailing:{" "}
           </span>
           <a
