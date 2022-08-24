@@ -16,7 +16,7 @@ export default function Home() {
       subtitle:
         "10/09/22 - Saturday @ 10:30am. Dress code: Warm jumpers & swim suits",
       description:
-        "We would love for all guests to join us for a swim at Trellwyn beach. We will meet by The Shed restaurant and will begin walking at 10:30am sharp.",
+        "We would love for all guests to join us for a swim at Trellwyn beach. We will meet by The Shed restaurant and begin walking at 10:30am sharp.",
       contact: {
         address: "The Shed, Porthgain, Haverfordwest, Pembrokeshire, SA62 5BL",
       },
