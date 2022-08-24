@@ -3,7 +3,7 @@ export default function Home() {
     {
       image: "/pizza.png",
       title: "Pizza & Champagne Night (All Guests)",
-      subtitle: "09/09/22 - Friday @ 7pm. Dress code: Smart casual",
+      subtitle: "09/09/22 - Friday @ 6:30pm. Dress code: Smart casual",
       description:
         "We will be kicking off celebrations with a wood-fired pizza and champagne night with all wedding guests at Dan’s mum’s campsite (plus Katie Marshall brownies to finish off).",
       contact: {
@@ -14,9 +14,9 @@ export default function Home() {
       image: "/beach.png",
       title: "Wedding Day Swim (All Guests)",
       subtitle:
-        "10/09/22 - Saturday @ 11am. Dress code: Warm jumpers & swim suits",
+        "10/09/22 - Saturday @ 10:30am. Dress code: Warm jumpers & swim suits",
       description:
-        "We would love for all guests to join us for a swim at Trellwyn beach. We will meet at the quay in Porthgain at 11am and, for those in need of wetsuits and/or surfboards, Hattie’s uncle Nick will be on hand with his Ma Sime’s Surf Hut van next to The Shed restaurant.",
+        "We would love for all guests to join us for a swim at Trellwyn beach. We will meet at the quay in Porthgain at 11am.",
       contact: {
         address: "The Shed, Porthgain, Haverfordwest, Pembrokeshire, SA62 5BL",
       },
@@ -35,9 +35,9 @@ export default function Home() {
       image: "/evening.png",
 
       title: "Wedding (Evening Guests)",
-      subtitle: "10/09/22 - Saturday @ 7:00pm. Dress code: Cocktail attire",
+      subtitle: "10/09/22 - Saturday @ 7:30pm. Dress code: Cocktail attire",
       description:
-        "Please join us at Druidstone from 7pm for drinks, dancing and live music provided by Jo and Dan Messore, plus a special Decksteppers reunion. A light evening buffet will be provided.",
+        "Please join us at Druidstone from 7:30pm for drinks, dancing and live music provided by Jo and Dan Messore, plus a special Decksteppers reunion. A light evening buffet will be provided.",
       contact: {
         address: "The Druidstone, Haverfordwest, SA62 3NE",
       },
